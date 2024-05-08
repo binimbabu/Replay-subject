@@ -1,0 +1,6 @@
+<input type="text" [(ngModel)]="chatValue" id="mOver">
+<button (click)="addValue()">Add</button>
+<button (click)="getChatDetails()">Get</button>
+<p *ngFor="let chat of chatMessage">
+    {{chat}}
+</p>
